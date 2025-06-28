@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 
 // CORS setup: Only allow requests from your frontend URL
-const allowedOrigin = 'https://siesgstfeedback.netlify.app/';  // Replace with your frontend URL
+const allowedOrigin = 'https://siesgstfeedback.netlify.app';  // Replace with your frontend URL
 
 const corsOptions = {
   origin: (origin, callback) => {
